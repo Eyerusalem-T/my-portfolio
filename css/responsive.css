@@ -1,0 +1,70 @@
+@media (max-width: 576px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .typewriter {
+    font-size: 1.3rem;
+  }
+
+  .image-container {
+    width: 250px;
+    height: 250px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  section {
+    padding: 3rem 0;
+  }
+
+  .contact-content {
+    gap: 2rem;
+  }
+
+  .contact-form {
+    padding: 1.5rem;
+  }
+}
+
+/* Responsive Services */
+@media (max-width: 768px) {
+  .services-list {
+    grid-template-columns: 1fr;
+  }
+
+  .service-category {
+    padding: 1.5rem;
+  }
+
+  .services-cta {
+    padding: 2rem 1.5rem;
+  }
+
+  .cta-content .btn {
+    display: block;
+    margin: 0.5rem auto;
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .category-title {
+    font-size: 1.5rem;
+  }
+
+  .services-cta {
+    padding: 1.5rem 1rem;
+  }
+
+  .cta-content h3 {
+    font-size: 1.5rem;
+  }
+}
